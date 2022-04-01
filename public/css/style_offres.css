@@ -1,0 +1,337 @@
+#main_offres {
+  position: relative;
+  height: 860px;
+  width: 100%;
+}
+
+#boutons_offres {
+  position: absolute;
+  padding: 4px;
+  width: 35%;
+  height: 50px;
+  right: 3%;
+  top: 3%;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#btn_add {
+  position: absolute;
+  width: 28%;
+}
+
+#btn_update {
+  position: absolute;
+  width: 29%;
+  right: 37.5%;
+}
+
+#btn_delete {
+  position: absolute;
+  width: 32%;
+  right: 0;
+  margin-right: 4px;
+}
+
+#section_offres {
+  position: absolute;
+  height: 70%;
+  width: 50%;
+  left: 5%;
+  top: 22%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.offres {
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: #cecece;
+  background-color: #f8f8f8;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.p_offres {
+  font-size: 10px;
+  font-family: 'Roboto light', sans-serif;
+}
+
+.accroche_offres {
+  position: relative;
+  top: -83%;
+  left: 50%;
+  font-size: 10px;
+}
+
+#details_offres {
+  position: absolute;
+  padding: 10px;
+  right: 2.5%;
+  top: 22%;
+  width: 40%;
+  height: 70%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: #cecece;
+  background-color: #e0e0e0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  visibility: hidden;
+}
+
+.stars {
+  position: absolute;
+  bottom: 38%;
+  left: 80%;
+}
+
+.star {
+  height: 15%;
+  width: 15%;
+}
+
+#rappel {
+  position: relative;
+  padding: 5px;
+  background-color: #ffffff;
+  margin: 5px;
+  margin-bottom: 8.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: #cecece;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+#details {
+  position: relative;
+  background-color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: #cecece;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  overflow-y: scroll;
+}
+
+#btn_postuler {
+  position: relative;
+  bottom: 5px;
+  margin-right: 10px;
+}
+
+#heart {
+  position: relative;
+  left: 10px;
+}
+
+#before_details_offres {
+  position: absolute;
+  right: 2.5%;
+  top: 22%;
+  width: 40%;
+  height: 60%;
+  visibility: visible;
+  text-align: center;
+  vertical-align: center;
+}
+
+#dropdown_localite {
+  padding: 7px;
+  margin: 0;
+  left: 5%;
+  top: 12%;
+  border: 1px solid #ccc;
+  width: 10%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+
+#dropdown_competence {
+  padding: 7px;
+  margin: 0;
+  left: 17%;
+  top: 12%;
+  border: 1px solid #ccc;
+  width: 12%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+
+#dropdown_duree {
+  padding: 7px;
+  margin: 0;
+  left: 31%;
+  top: 12%;
+  border: 1px solid #ccc;
+  width: 8%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+
+#dropdown_entreprise {
+  padding: 7px;
+  margin: 0;
+  left: 41%;
+  top: 12%;
+  border: 1px solid #ccc;
+  width: 10%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+#dropdown_remuneration {
+  padding: 7px;
+  margin: 0;
+  left: 53%;
+  top: 12%;
+  border: 1px solid #ccc;
+  width: 12%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+#dropdown_date_offre {
+  padding: 7px;
+  margin: 0;
+  left: 67%;
+  top: 12%;
+  border: 1px solid #ccc;
+  width: 12%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+#dropdown_places {
+  padding: 7px;
+  margin: 0;
+  left: 81%;
+  top: 12%;
+  border: 1px solid #ccc;
+  width: 16%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+
+.filtre select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.filtre:after {
+  top: 50%;
+  left: 85%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-width: 5px;
+  margin-top: -2px;
+}
+
+.filtre select:focus {
+  outline: none;
+}
+
+::selection{
+  background-color: #444;
+  color: white;
+}
+
+#pagination {
+  display: inline-block;
+  position: absolute;
+  bottom: 1%;
+  left: 15%;
+}
+
+#pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#pagination a.active {
+  background-color: #ffc845;
+  color: white;
+}
+
+#pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+#pagination a {
+  border: 1px solid #ddd;
+}
+
+#h2content {
+  position: absolute;
+  left: 5%;
+  margin-top: 30px;
+}
+

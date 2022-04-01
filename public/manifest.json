@@ -1,0 +1,17 @@
+{
+    "name": "Cesi Stage",
+    "short_name": "Cesi Stage",
+    "start_url": "/index.php",
+    "background_color": "#6777ef",
+    "description": "Cesi Stage",
+    "display": "standalone",
+    "theme_color": "#6777ef",
+    "icons": [
+        {
+            "src": "img/cesi.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

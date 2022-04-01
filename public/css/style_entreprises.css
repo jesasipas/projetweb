@@ -1,0 +1,204 @@
+#bottom {
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+
+#h2content {
+  position: absolute;
+  left: 5%;
+  margin-top: 30px;
+}
+
+#boutons_offres {
+  position: absolute;
+  padding: 4px;
+  width: 35%;
+  height: 50px;
+  right: 2%;
+  top: 25%;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#btn_add {
+  position: absolute;
+  width: 28%;
+}
+
+#btn_update {
+  position: absolute;
+  width: 29%;
+  right: 37.5%;
+}
+
+#btn_delete {
+  position: absolute;
+  width: 32%;
+  right: 0;
+  margin-right: 4px;
+}
+
+#entreprises {
+  position: relative;
+  margin-bottom: 120px;
+  top: 80px;
+}
+
+#dropdown_secteur {
+  padding: 7px;
+  margin: 0;
+  left: 5%;
+  top: 80%;
+  border: 1px solid #ccc;
+  width: 14%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+
+#dropdown_localite {
+  padding: 7px;
+  margin: 0;
+  left: 21%;
+  top: 80%;
+  border: 1px solid #ccc;
+  width: 8%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+
+#dropdown_stagiaires {
+  padding: 7px;
+  margin: 0;
+  left: 31%;
+  top: 80%;
+  border: 1px solid #ccc;
+  width: 16%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+
+#dropdown_note_stagiaires {
+  padding: 7px;
+  margin: 0;
+  left: 49%;
+  top: 80%;
+  border: 1px solid #ccc;
+  width: 16%;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #ffc845;
+  background: #ffc845;
+  position: absolute;
+}
+
+.filtre select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.filtre:after {
+  top: 50%;
+  left: 85%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-width: 5px;
+  margin-top: -2px;
+}
+
+.filtre select:focus {
+  outline: none;
+}
+
+::selection{
+  background-color: #444;
+  color: white;
+}
+
+#pagination {
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+  left: 45%;
+}
+
+#pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#pagination a.active {
+  background-color: #ffc845;
+  color: white;
+}
+
+#pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+#pagination a {
+  border: 1px solid #ddd;
+}
+
+#stars {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+#search_entreprises {
+  position: absolute;
+  width: 24%;
+  right: 7%;
+  top: 83%;
+}
+
+#searchbar {
+  position: absolute;
+  width: 89%;
+  right: 40px;
+}
+
+#search_button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#liste_entreprises{
+  position: relative;
+  right: 0;
+}
